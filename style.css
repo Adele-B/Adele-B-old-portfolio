@@ -94,7 +94,7 @@ ul a:hover {
   position: relative;
   overflow: hidden;
   background-color: hsl(329, 44%, 71%);
-  padding: 2%;
+  padding: 2% 0;
 }
 
 @supports (-webkit-text-stroke: 1px rgba(64, 64, 64, 0.99)) {
