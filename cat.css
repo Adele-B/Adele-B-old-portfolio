@@ -1,0 +1,86 @@
+html,
+body {
+  font-family: "Source Code Pro", monospace;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.15;
+  height: 100%;
+  background-color: hsl(329, 44%, 71%);
+}
+
+header {
+  width: 100%;
+  background-color: rgb(59, 59, 59);
+  height: 100px;
+  align-items: center;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  font-size: 2rem;
+  margin: 0 auto;
+  padding: 30px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.7s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.game-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.game-container img {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.name-label {
+  font-size: 20px;
+}
+
+.cat-name {
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+  border: 2px dotted black;
+  border-radius: 15px;
+  background-color: white;
+}
+
+button {
+  background-color: pink;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#name {
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
+}
+
+button:hover {
+  background-color: palevioletred;
+}
